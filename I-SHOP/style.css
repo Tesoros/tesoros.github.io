@@ -1,0 +1,272 @@
+body {
+    background: #f8f8f8;
+}
+
+.menu li {
+    width: 200px;
+    height: 40px;
+    list-style-type: none;
+    font-style: normal;
+    font-size: 23px;
+    display: inline-block;
+    padding-top: 25px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.dmenu {
+    float: right;
+}
+
+
+/* Цвет ссылок в меню  */
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    height: 50px;
+}
+
+
+/* Цвет ссылок в меню при наведении */
+
+.menu li a:hover {
+    color: #0920EC;
+}
+
+
+/* Цвет ссылок в меню при активации */
+
+.menu li a:active {
+    color: #AB0D1B
+}
+
+.nametxt {
+    text-align: center;
+}
+
+.heading {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+
+.descrip {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.detaildescrip {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.list {
+    list-style-image: url(img/list-icon.png);
+    list-style-position: inside;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.list2 {
+    list-style-position: inside;
+    list-style-type: upper-roman;
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+/* Рамка */
+
+.mainpicture {
+    outline: 6px solid #eaeaea;
+}
+
+
+/* Рамка исчезает при наведении */
+
+.mainpicture:hover {
+    outline: none;
+}
+
+
+/* Рамки на изображениях похожих товаров */
+
+
+.similar--products img {
+   outline: 6px solid #eaeaea; 
+}
+
+input {
+    width: 215px;
+    height: 20px;
+}
+
+textarea {
+    width: 300px;
+    height: 150px;
+}
+
+::-webkit-input-placeholder {
+    color: #50667B;
+    font-size: 10px;
+    font-style: oblique;
+}
+
+
+/* Логотип */
+
+.logo {
+    background-image: url(img/logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: -25px;
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+
+/* При вводе текста в поле Email на странице контакты меняется цвет текста и цвет поля.  */
+
+form input[type="email"]:focus {
+    background: #AB0D1B;
+    color: white;
+    font-weight: bold;
+}
+
+
+/* При вводе текста в текстовые поля все слова начинаются с большой буквы  */
+
+form input,
+textarea {
+    text-transform: capitalize;
+}
+
+
+/* Стили таблиц  */
+
+.comparison {
+    border: 1px solid;
+    width: 80%;
+    height: 400px;
+    vertical-align: middle;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.comparison td {
+    border: 1px solid;
+}
+
+.optnutrtd {
+    background-color: #c6f5f0;
+}
+
+.generalinfo {
+    height: 10px;
+}
+
+.total {
+    background-color: #c6f5f0;
+}
+
+table caption {
+    text-align: left;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+
+
+/* Первой букве параграфа меняем размер и шрифт  */
+
+.descrip:first-letter {
+    color: #AB0D1B;
+    font-size: 30px;
+    font-family: fantasy;
+}
+
+.detaildescrip:first-letter {
+    color: #AB0D1B;
+    font-size: 30px;
+    font-family: fantasy;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 170px;
+    background-image: url(img/head-img.jpg);
+}
+
+.product {
+    float: left;
+    margin: 55px;
+}
+
+
+/* Блок с изображением продукта   */
+
+.prod--img {
+    float: left;
+    padding-right: 20px;
+    padding-left: 6px;
+    padding-bottom: 15px;
+    padding-top: 6px;
+}
+
+
+/* Кнопка купить   */
+
+.buy input[type="submit"] {
+    width: 150px;
+    height: 60px;
+    border: 1px solid transparent;
+    background-color: #CC3434;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #f8f8f8;
+    font-weight: bold;
+    border-radius: 5px;
+    outline: none;
+    margin: 40px 0 0 220px;
+}
+
+.buy input[type="submit"]:hover {
+    background-color: #0bda51;
+    color: black;
+}
+
+.buy input[type="submit"]:active {
+    background-color: #54fc12;
+}
+
+.dheading {
+    clear: both;
+}
+
+.footer {
+    height: 150px;
+    background-color: #eaeaea;
+    clear: both;
+}
+
+.footer p {
+    padding: 65px;
+    text-align: right;
+}
